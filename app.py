@@ -1448,7 +1448,7 @@ def create_pdf(data, placeholder_image, output_pdf):
         c.drawCentredString(
             PAGE_WIDTH / 2,
             PAGE_HEIGHT - 70,
-            "Address: 123 Example Street, City Name, State, Country"
+            "2821,1st Floor,Gali No-18 ,Karol Bagh, New Delhi-110005 Mobile. 9811158555/9811141777"
         )
 
         grid_start_y = PAGE_HEIGHT - 100
@@ -1544,7 +1544,7 @@ def extract_images_and_add_column(excel_file):
     return data
 
 def main():
-    st.title("MobileClinic Product Catalog Generator")
+    st.title("Product Catalog Generator")
     
     uploaded_file = st.file_uploader("Upload Excel File", type=['xlsx'])
     
