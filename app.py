@@ -3105,8 +3105,8 @@ class PDFGenerator:
                     # Draw header
                     self._draw_header(c, category_name, color_scheme)
                     
-                    # Draw page number
-                    self._draw_page_number(c, current_page)
+                    # # Draw page number
+                    # self._draw_page_number(c, current_page)
                     
                     # Calculate products for this page
                     start_idx = page_num * items_per_page
