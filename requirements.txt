@@ -27,6 +27,8 @@ protobuf==5.29.2
 pyarrow==18.1.0
 pydeck==0.9.1
 Pygments==2.19.0
+pypdf==5.6.0
+PyPDF2==3.0.1
 python-dateutil==2.9.0.post0
 pytz==2024.2
 referencing==0.35.1
